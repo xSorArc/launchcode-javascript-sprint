@@ -1,7 +1,7 @@
 // 4.9 EXERCISES: Data and Variables
 // A. Declare and assign variables
 
-const shuttleName = "Determination";           // Shuttle name
+const shuttleName = "Determination";    // Shuttle name
 const shuttleSpeed = 17500;             // Shuttle speed
 const distanceToMars = 225000000;       // Distance to Mars
 const distanceToMoon = 384400;          // Distance to Moon
