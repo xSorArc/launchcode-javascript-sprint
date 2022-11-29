@@ -15,3 +15,7 @@
 // const studio4 = require('./studios/studio10.11.js');
 
 //ASSIGNMENTS:
+
+// const assignment1 = require('./assignments/candidate-testing.js');
+
+// assignment1.runProgram();
