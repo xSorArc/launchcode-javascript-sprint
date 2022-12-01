@@ -17,5 +17,3 @@
 //ASSIGNMENTS:
 
 // const assignment1 = require('./assignments/candidate-testing.js');
-
-// assignment1.runProgram();
