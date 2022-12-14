@@ -10,6 +10,7 @@
 // const exercise8 = require('./exercises/exercise11.10.js');
 // const exercise9 = require('./exercises/exercise12.7.js');
 // const exercise10 = require('./exercises/exercise14.6.js');
+// const exercise11 = require('./exercises/exercise18.5.js');
 
 // STUDIOS:
 
@@ -19,7 +20,7 @@
 // const studio4 = require('./studios/studio10.11.js');
 // const studio5 = require('./studios/studio11.11.js');
 // const studio6 = require('./studios/studio12.8.js');
-
+// const studio7 = require('./studios/studio14.7.js');
 
 //ASSIGNMENTS:
 
