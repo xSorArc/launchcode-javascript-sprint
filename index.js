@@ -21,6 +21,7 @@
 // const studio5 = require('./studios/studio11.11.js');
 // const studio6 = require('./studios/studio12.8.js');
 // const studio7 = require('./studios/studio14.7.js');
+const studio8 = require('./studios/studio18.6.js');
 
 //ASSIGNMENTS:
 
