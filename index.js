@@ -11,6 +11,7 @@
 // const exercise9 = require('./exercises/exercise12.7.js');
 // const exercise10 = require('./exercises/exercise14.6.js');
 // const exercise11 = require('./exercises/exercise18.5.js');
+// const exercise12 = require('./exercises/exercise23.7.js');
 
 // STUDIOS:
 
@@ -21,7 +22,8 @@
 // const studio5 = require('./studios/studio11.11.js');
 // const studio6 = require('./studios/studio12.8.js');
 // const studio7 = require('./studios/studio14.7.js');
-const studio8 = require('./studios/studio18.6.js');
+// const studio8 = require('./studios/studio18.6.js');
+const studio9 = require('./studios/studio23.8.js');
 
 //ASSIGNMENTS:
 
