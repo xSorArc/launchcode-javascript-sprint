@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/styles25.11.css">
+        <!--JS Code is here instead of separate js file.-->
+        <script> 
+            const setSearchEngine = (e) => {
+                let actions = {
+                    "google": "https://www.google.com/",
+                    "duckDuckGo": "https://duckduckgo.com/",
+                    "bing": "https://www.bing.com/search",
+                    "ask": "https://www.ask.com/web"
+                };
+
+                const form = document.getElementById("searchForm");
+                const engine = document.querySelector("input[name=engine]:checked");
+                const search = document.getElementById("search");
+
+                if (engine === null || search.value.trim() === "") {
+                    alert("Please type a search term and select a search engine.");
+                    e.preventDefault();
+                }
+
+                let action = actions[engine.value];
+                form.setAttribute("action", action);                
+            }
+
+            window.addEventListener("load", function() {
+                const form = document.getElementById("searchForm");
+                form.addEventListener("submit", setSearchEngine);
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="decor">
+            <h2>Search It Up</h2>
+            <form id="searchForm" method="get">
+                <input type="text" name="q" id="search"><br>
+
+                <label><input type="radio" name="engine" value="google">Google</label>
+                <label><input type="radio" name="engine" value="duckDuckGo">DuckDuckGo</label>
+                <label><input type="radio" name="engine" value="bing">Bing</label>
+                <label><input type="radio" name="engine" value="ask">Ask</label>
+                <button type="submit" id="button" value="Go!">Go!</button>
+            </form>
+        </div>
+    </body>
+</html>

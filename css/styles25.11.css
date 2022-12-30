@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+}
+
+#decor {
+    padding: 25%;
+    text-align: center;
+}
+
+h2:hover {
+    color:red;
+}
